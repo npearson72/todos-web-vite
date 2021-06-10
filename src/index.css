@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl mb-3;
+  }
+
+  input[type='text'] {
+    @apply mt-1 block w-full bg-gray-100 border-transparent focus:border-gray-300 focus:bg-white focus:ring-0;
+  }
+
+  .btn.btn-primary.btn-small {
+    @apply bg-gray-500 hover:bg-gray-600 text-sm text-white py-1 px-2 rounded ml-3 outline-none;
+  }
+}
